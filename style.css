@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  margin: 0 auto;
+  background-color: azure;
+  padding: 10px;
+  border-radius: 8px;
+  
+}
+
+button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.gridContainer {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 5px;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+}
+
+.gridItem {
+  background: powderblue;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.currentGridItem {
+  background: palegoldenrod;
+  border: 4px solid #ddd;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.goalCell {
+  background: green;
+  border: 4px solid #ddd;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.obstacle {
+  background: palevioletred;
+  border: 4px solid #ddd;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
